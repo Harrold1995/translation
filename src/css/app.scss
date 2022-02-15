@@ -1,0 +1,225 @@
+
+
+.content-space {
+	margin-top: 120px;
+}
+
+/* ==========================================================================
+     FAT styles
+     ========================================================================== */
+  
+//**** Document Tiles *****/
+
+.document-table-results {
+	background: #EEF0F5 0% 0% no-repeat padding-box;
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+
+.document-results {
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+// .q-table__grid-content {
+// 	margin: 0 auto;
+// }
+  
+.document-tiles {
+	display: inline-block;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	opacity: 1;
+	width: 300px;
+	height:265px;
+	overflow: hidden;
+	line-height : 20px;
+	margin: 0 auto;
+}
+
+.document-tiles:hover {
+	box-shadow: 2px 3px 25px #091B2880 !important;
+}
+
+.result-document {
+	text-align: center;
+	font-family:  'aktiv-grotesk', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #091B28;
+	opacity: 1;
+	top: 10px;
+	width: 240px;
+	height: 70px;
+	font-size: 1.12em;
+	position: relative;
+	line-height: 24px;
+} 
+.result-organisation {
+	text-align: center;
+	font-family:  'aktiv-grotesk', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #35A68D;
+	opacity: 1;
+	top: 5px;
+	width: 240px;
+	height: 40px;
+	font-size: 1.0em;
+	position: relative;
+	line-height: 20px;
+	
+}
+
+.label-link-validated {
+	text-align: center;
+	font-family:  'aktiv-grotesk', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #091B28;
+	opacity: 1;
+	top: 10px;
+	width: 240px;
+	height: 40px;
+	font-size: 0.8em;
+	position: relative;
+	line-height: 20px;
+}
+
+.result-link-validated {
+	text-align: center;
+	font-family:  'aktiv-grotesk', sans-serif;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #091B28;
+	opacity: 1;
+	top: -10px;
+	width: 240px;
+	height: 40px;
+	font-size: 0.8em;
+	position: relative;
+	line-height: 20px;
+}
+
+.table-title-hr {
+	position: relative;
+	border: none;
+	height: 2.5px;
+	background: #091B28 0% 0% no-repeat padding-box;
+	margin-left: 20px;
+	margin-right: 60px;
+	opacity: 0.5;
+	margin-bottom: 30px;
+  }
+.result-tooltip {
+	max-width:230px;
+	text-align: center;
+	font-family:  'aktiv-grotesk', sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+
+}
+
+
+/* ==========================================================================
+     Bootstrap styles
+     ========================================================================== */
+@media (min-width: 576px) {
+	.text-sm-left{
+		text-align:left!important
+	}
+}
+
+.d-flex {
+	display:-webkit-box!important;
+	display:-ms-flexbox!important;
+	display:flex!important
+}
+
+.d-block {
+	display: block!important
+}
+
+.d-none {
+	display: none!important
+}
+
+.h-100 {
+	height: 100%!important
+}
+
+.w-100 {
+	width: 100%!important
+}
+
+.mt-auto,
+.my-auto {
+	margin-top: auto!important
+}
+
+.mb-auto,
+.my-auto {
+	margin-bottom: auto!important
+}
+
+.mr-auto,
+.mx-auto {
+	margin-right: auto!important
+}
+
+.ml-auto,
+.mx-auto {
+	margin-left: auto!important
+}
+
+.position-relative {
+	position: relative!important
+}
+
+.order-1 {
+	-webkit-box-ordinal-group: 2;
+	-ms-flex-order: 1;
+	order: 1
+}
+
+.order-2 {
+	-webkit-box-ordinal-group: 3;
+	-ms-flex-order: 2;
+	order: 2
+}
+
+.order-3 {
+	-webkit-box-ordinal-group: 4;
+	-ms-flex-order: 3;
+	order: 3
+}
+
+@media (min-width:1023px) {
+	.order-md-1 {
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 1;
+		order: 1
+	}
+	.order-md-2 {
+		-webkit-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2
+	}
+	.order-md-3 {
+		-webkit-box-ordinal-group: 4;
+		-ms-flex-order: 3;
+		order: 3
+	}
+}
+
+@media (min-width:992px) {
+	.d-lg-none {
+		display: none!important
+	}
+	.d-lg-block {
+		display: block!important
+	}
+}

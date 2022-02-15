@@ -1,0 +1,28 @@
+{
+    
+    "name": "johnericsapungan/slim-mvc",
+    "description": "MVC structure in SLIM using Eloquent and Phinx",
+    "keywords": ["framework", "slim", "Eloquent", "Phinx"],
+    "require": {
+        "slim/slim": "3.*",
+        "vlucas/phpdotenv": "^4.1",
+        "illuminate/database": "^7.0",
+        "robmorgan/phinx": "^0.11.4",
+        "fzaninotto/faker": "^1.9",
+        "palanik/corsslim": "dev-slim3",
+        "firebase/php-jwt": "^5.1",
+        "illuminate/validation": "^7.6",
+        "symfony/translation": "^5.0",
+        "illuminate/pagination": "^7.16",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8084 -t public public/index.php",
+        "test": "phpunit"
+    }
+}
